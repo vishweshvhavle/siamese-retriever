@@ -56,7 +56,7 @@ augment_transform = transforms.Compose(
 
 train_dataset = SVHNDataset(csv_path='../datasets/svhn/train_labels.csv',
                               img_dir='../datasets/svhn/train',
-                              transform=augment_transform)
+                              transform=custom_transform)
 
 val_dataset = SVHNDataset(csv_path='../datasets/svhn/val_labels.csv',
                               img_dir='../datasets/svhn/val',
@@ -66,7 +66,7 @@ test_dataset = SVHNDataset(csv_path='../datasets/svhn/test_labels.csv',
                              img_dir='../datasets/svhn/test',
                              transform=custom_transform)
 
-BATCH_SIZE=128
+BATCH_SIZE=64
 
 
 train_loader = DataLoader(dataset=train_dataset,

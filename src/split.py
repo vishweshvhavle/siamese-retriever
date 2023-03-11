@@ -1,68 +1,75 @@
 import pandas as pd
 import numpy as np
 import os
-
-import torch
-from torch.utils.data import Dataset
-from torch.utils.data import DataLoader
-from torchvision import transforms
+import random
 
 import matplotlib.pyplot as plt
 from PIL import Image
 import scipy.io as sio
 import imageio
+import csv
 
-main_dir='../datasets'
-mat_file='../datasets/train_32x32.mat'
+import glob
+import shutil
+
+main_dir='../data'
+
     
 if not os.path.exists(main_dir):
     os.mkdir(main_dir)
 
-data = sio.loadmat(mat_file)
+# Dataset Set Size: 1514 Images
+# Custom Train Set Size: 1211 Images
+# Custom Test Set Size: 151 Images
+# Custom Val Set Size: 151 Images
 
-x = np.transpose(data['X'], (3, 0, 1, 2))
-y = data['y'].flatten()
+with open('../data/original/labels.csv', 'r') as csvfile:
+    reader = csv.reader(csvfile)
+    rows = [row for row in reader]
+    random_rows = random.sample(rows, len(rows))
 
-# Train Set Size: 73257 Digits
-# Custom Train Set Size: 51281 Digits
-# Custom Test Set Size: 14651 Digits
-# Custom Val Set Size: 7325 Digits
+    # Create Directories for Train Set
+    label = 'train'    
+    sub_dir = os.path.join(main_dir, label)
+    if not os.path.exists(sub_dir):
+        os.mkdir(sub_dir)
 
-label='test'    
-sub_dir = os.path.join(main_dir, label)
-if not os.path.exists(sub_dir):
-    os.mkdir(sub_dir)
+    train_dir = os.path.join(sub_dir, 'images')
+    if not os.path.exists(train_dir):
+        os.mkdir(train_dir)
 
-with open(os.path.join(main_dir, '%s_labels.csv' % label), 'w') as out_f:
-    for i in range(14651):
-        img = x[i]
-        file_path = os.path.join(sub_dir, str(i) + '.png')
-        imageio.imwrite(os.path.join(file_path), img)
+    # Create Directories for Test Set
+    label = 'test'    
+    sub_dir = os.path.join(main_dir, label)
+    if not os.path.exists(sub_dir):
+        os.mkdir(sub_dir)
 
-        out_f.write("%d.png,%d\n" % (i, y[i]))
+    test_dir = os.path.join(sub_dir, 'images')
+    if not os.path.exists(test_dir):
+        os.mkdir(test_dir)
 
-label='val'    
-sub_dir = os.path.join(main_dir, label)
-if not os.path.exists(sub_dir):
-    os.mkdir(sub_dir)
+    # Create Directories for Val Set
+    label = 'val'    
+    sub_dir = os.path.join(main_dir, label)
+    if not os.path.exists(sub_dir):
+        os.mkdir(sub_dir)
 
-with open(os.path.join(main_dir, '%s_labels.csv' % label), 'w') as out_f:
-    for i in range(14652, 21976):
-        img = x[i]
-        file_path = os.path.join(sub_dir, str(i) + '.png')
-        imageio.imwrite(os.path.join(file_path), img)
+    val_dir = os.path.join(sub_dir, 'images')
+    if not os.path.exists(val_dir):
+        os.mkdir(val_dir)
 
-        out_f.write("%d.png,%d\n" % (i, y[i]))
+    count = 0
+    for row in random_rows:
+        with open(os.path.join(main_dir, '%s/%s_labels.csv' % (label, label)), 'a') as out_f:
+            filename = row[0]
+            label_id = row[1]
+            out_f.write("%s,%s\n" % (filename, label_id))
+            dst_dir = os.path.join(main_dir, label, 'images')
+            src_dir = os.path.join('../data/original/images', filename)
+            shutil.copy(src_dir, dst_dir)
 
-label='train'    
-sub_dir = os.path.join(main_dir, label)
-if not os.path.exists(sub_dir):
-    os.mkdir(sub_dir)
-
-with open(os.path.join(main_dir, '%s_labels.csv' % label), 'w') as out_f:
-    for i in range(21977, 73256):
-        img = x[i]
-        file_path = os.path.join(sub_dir, str(i) + '.png')
-        imageio.imwrite(os.path.join(file_path), img)
-
-        out_f.write("%d.png,%d\n" % (i, y[i]))
+            count += 1
+            if count == 151:
+                label = 'test'
+            elif count == 302:
+                label = 'train'
