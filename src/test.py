@@ -20,9 +20,8 @@ from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
 
 from dataloader import *
 from model import *
-from model2 import *
 
-classes = ['0','1','2','3','4','5','6','7','8','9']
+classes = ['0','1','2','3','4']
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 # dataiter = iter(test_loader)
 # images, labels = next(dataiter)
@@ -30,14 +29,13 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 # print('GroundTruth: ', ' '.join(f'{classes[labels[j]-1]:5s}' for j in range(40)))
 
-PATH = './svhn_net3.pth'
-net = net2
-net.load_state_dict(torch.load(PATH))
-net.to(device)
+PATH = './if300_model1.pth'
+model.load_state_dict(torch.load(PATH))
+model.to(device)
 
 transform = transforms.ToPILImage()
 
-# outputs = net(images)
+# outputs = model(images)
 # _, predicted = torch.max(outputs, 1)
 # print('Predicted: ', ' '.join(f'{classes[predicted[j]-1]:5s}' for j in range(40)))
 
@@ -60,7 +58,7 @@ with torch.no_grad():
             if labels[i] == 10:
                 labels[i] = 0
         images, labels = images.to(device), labels.to(device)
-        outputs = net(images)
+        outputs = model(images)
         labels_ = np.array(labels.cpu())
         outputs_ = np.array(outputs.cpu())
 
@@ -73,8 +71,8 @@ with torch.no_grad():
         y_true += labels
         y_pred += predicted
 
-print(f'Accuracy of the network on the 14651 test images: ', 100 * correct // total)
-print(f'F1 Score of the network on the 14651 test images: ', f1_score(y_true, y_pred, average='weighted'))
+print(f'Accuracy of the network on the 151 test images: ', 100 * correct // total)
+print(f'F1 Score of the network on the 151 test images: ', f1_score(y_true, y_pred, average='weighted'))
 
 # prepare to count predictions for each class
 correct_pred = {classname: 0 for classname in classes}
@@ -88,7 +86,7 @@ with torch.no_grad():
             if labels[i] == 10:
                 labels[i] = 0
         images, labels = images.to(device), labels.to(device)
-        outputs = net(images)
+        outputs = model(images)
         _, predictions = torch.max(outputs, 1)
         # collect the correct predictions for each class
         for label, prediction in zip(labels, predictions):

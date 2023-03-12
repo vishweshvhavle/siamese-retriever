@@ -17,8 +17,8 @@ from PIL import Image
 import scipy.io as sio
 import imageio
 
-class SVHNDataset(Dataset):
-    """Custom Dataset for loading cropped SVHN images"""
+class IF300Dataset(Dataset):
+    """Custom Dataset for loading cropped IF300 images"""
     
     def __init__(self, csv_path, img_dir, transform=None):
     
@@ -54,16 +54,16 @@ augment_transform = transforms.Compose(
                     transforms.GaussianBlur(kernel_size=(3, 3), sigma=(0.1, 0.2)),
                     transforms.Resize((32, 32))])
 
-train_dataset = SVHNDataset(csv_path='../datasets/svhn/train_labels.csv',
-                              img_dir='../datasets/svhn/train',
+train_dataset = IF300Dataset(csv_path='../data/train/train_labels.csv',
+                              img_dir='../data/train/images',
                               transform=custom_transform)
 
-val_dataset = SVHNDataset(csv_path='../datasets/svhn/val_labels.csv',
-                              img_dir='../datasets/svhn/val',
+val_dataset = IF300Dataset(csv_path='../data/val/val_labels.csv',
+                              img_dir='../data/val/images',
                               transform=custom_transform)
 
-test_dataset = SVHNDataset(csv_path='../datasets/svhn/test_labels.csv',
-                             img_dir='../datasets/svhn/test',
+test_dataset = IF300Dataset(csv_path='../data/test/test_labels.csv',
+                             img_dir='../data/test/images',
                              transform=custom_transform)
 
 BATCH_SIZE=64

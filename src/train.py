@@ -20,36 +20,33 @@ import imageio
 
 from dataloader import *
 from model import *
-from model2 import *
 
-classes = ('0','1','2','3','4','5','6','7','8','9')
+classes = ('0','1','2','3','4')
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 torch.manual_seed(0)
 
-num_epochs = 15
-# net = Net() # Model 1
-net = net2 # Model 2 and 3
-net.to(device)
+num_epochs = 100
+model.to(device)
 
 criterion = nn.CrossEntropyLoss()
-optimizer = optim.SGD(net.parameters(), lr=0.001, momentum=0.9)
+optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)
 
 # start a new wandb run to track this script
 wandb.init(
     entity = "cse-344", 
-    project = "q1_image_classification",
-    name = "model3"
+    project = "baseline",
+    name = "manali_net"
 )
 
 wandb.config={
     "learning_rate": 0.02,
     "architecture": "CNN",
-    "dataset": "SVHN",
-    "epochs": 15,
-    "batch_size": 128
+    "dataset": "IF300",
+    "epochs": 100,
+    "batch_size": 64
     }
 
-wandb.watch(net)
+wandb.watch(model)
 
 total_loss_train = []
 total_loss_validation = []
@@ -75,7 +72,7 @@ for epoch in range(num_epochs):  # loop over the dataset multiple times
         optimizer.zero_grad()
 
         # forward + backward + optimize
-        outputs = net(inputs)
+        outputs = model(inputs)
         loss = criterion(outputs, labels)
         loss.backward()
         optimizer.step()
@@ -102,8 +99,8 @@ for epoch in range(num_epochs):  # loop over the dataset multiple times
                 if labels[i] == 10:
                     labels[i] = 0
             images, labels = images.to(device), labels.to(device)
-            # calculate outputs by running images through the network
-            outputs = net(images)
+            # calculate outputs by running images through the modelwork
+            outputs = model(images)
             # the class with the highest energy is what we choose as prediction
             _, predicted = torch.max(outputs.data, 1)
             correct += (predicted == labels).sum().item()
@@ -131,9 +128,9 @@ for epoch in range(num_epochs):  # loop over the dataset multiple times
 
 print('Finished Training')
 
-PATH = './svhn_net3.pth'
-torch.save(net.state_dict(), PATH)
-artifact = wandb.Artifact('net', type='net')
+PATH = './if300_model1.pth'
+torch.save(model.state_dict(), PATH)
+artifact = wandb.Artifact('model', type='net')
 artifact.add_file(PATH)
 wandb.log_artifact(artifact)
 wandb.finish()
