@@ -2307,3 +2307,621 @@
 2023-03-12 19:40:24,987 DEBUG   SenderThread:17508 [sender.py:send():336] send: stats
 2023-03-12 19:40:24,989 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
 2023-03-12 19:40:24,990 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:40:25,717 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:40:25,718 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/output.log
+2023-03-12 19:40:25,875 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:40:26,152 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:26,172 INFO    wandb-upload_0:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/l7j27l9o-media/table/conf_mat_table_114_a250089495224204b49b.table.json
+2023-03-12 19:40:28,024 INFO    wandb-upload_3:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmpjm3ehp6n
+2023-03-12 19:40:28,156 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:30,262 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY1ODcx', 'digest': '05a67e59666fee172d4fd3930d9e3165', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY1ODAw', 'versionIndex': 86}}, 'version': 'latest'}
+2023-03-12 19:40:30,263 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:40:30,264 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:40:30,264 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_116_7b14ce41332706767e67.table.json with policy now
+2023-03-12 19:40:30,266 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:40:30,267 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:40:30,269 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:40:30,270 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:40:30,270 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:40:30,371 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:30,736 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:40:30,877 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:40:31,389 INFO    wandb-upload_2:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/6caofyaz-media/table/conf_mat_table_116_7b14ce41332706767e67.table.json
+2023-03-12 19:40:32,377 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:33,458 INFO    wandb-upload_1:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmppu0haad_
+2023-03-12 19:40:34,381 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:35,177 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY1OTE0', 'digest': '095c3cc51af623dad65deceb2e054dd6', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY1ODcx', 'versionIndex': 87}}, 'version': 'latest'}
+2023-03-12 19:40:35,177 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:40:35,178 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_117_69b65f67c82e5aaf039d.table.json with policy now
+2023-03-12 19:40:35,178 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:40:35,179 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:40:35,180 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:40:35,181 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:40:35,181 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:40:35,752 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:40:35,880 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:40:36,328 INFO    wandb-upload_0:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/tspebp2d-media/table/conf_mat_table_117_69b65f67c82e5aaf039d.table.json
+2023-03-12 19:40:36,386 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:38,390 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:39,832 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:40:39,855 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:40:40,181 INFO    wandb-upload_3:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmpmqhy0_qx
+2023-03-12 19:40:40,393 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:40,409 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:40:40,434 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:40:40,767 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_121_cd69183d9950dc56d081.table.json
+2023-03-12 19:40:40,768 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_120_33b921d6788f91a1fd22.table.json
+2023-03-12 19:40:40,769 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table
+2023-03-12 19:40:40,881 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:40:40,937 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:40:40,963 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:40:41,147 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:40:41,772 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_122_548f15354e3316f94492.table.json
+2023-03-12 19:40:41,773 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table
+2023-03-12 19:40:41,975 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY1OTYz', 'digest': '11d9512f2e62dff18d0bc5da897566a9', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY1OTE0', 'versionIndex': 88}}, 'version': 'latest'}
+2023-03-12 19:40:41,976 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:40:41,977 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:40:41,979 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_118_89a54f87727f035df61e.table.json with policy now
+2023-03-12 19:40:41,981 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:40:41,982 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:40:41,984 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:40:41,985 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:40:41,985 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:40:41,999 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:40:42,000 DEBUG   SenderThread:17508 [sender.py:send():336] send: stats
+2023-03-12 19:40:42,002 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:40:42,002 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:40:42,397 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:42,778 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:40:43,426 INFO    wandb-upload_0:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/aq2qty01-media/table/conf_mat_table_120_33b921d6788f91a1fd22.table.json
+2023-03-12 19:40:43,527 INFO    wandb-upload_2:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/wyv4yjiu-media/table/conf_mat_table_121_cd69183d9950dc56d081.table.json
+2023-03-12 19:40:43,529 INFO    wandb-upload_3:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/1f6jdexu-media/table/conf_mat_table_118_89a54f87727f035df61e.table.json
+2023-03-12 19:40:43,626 INFO    wandb-upload_1:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/nrxackea-media/table/conf_mat_table_122_548f15354e3316f94492.table.json
+2023-03-12 19:40:43,781 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/output.log
+2023-03-12 19:40:44,402 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:45,883 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:40:46,407 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:48,410 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:48,632 INFO    wandb-upload_0:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmpbdhyilv5
+2023-03-12 19:40:50,414 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:50,885 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:40:51,240 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY2MDM0', 'digest': '5c03cf55823bb2ed3cba594c56ae5fa3', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY1OTYz', 'versionIndex': 89}}, 'version': 'latest'}
+2023-03-12 19:40:51,247 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:40:52,418 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:52,858 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:40:52,859 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_120_33b921d6788f91a1fd22.table.json with policy now
+2023-03-12 19:40:52,860 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:40:52,861 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:40:52,863 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:40:52,864 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:40:52,864 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:40:53,818 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/config.yaml
+2023-03-12 19:40:53,818 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:40:54,423 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:55,886 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:40:56,065 INFO    wandb-upload_3:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/u9elaqd0-media/table/conf_mat_table_120_33b921d6788f91a1fd22.table.json
+2023-03-12 19:40:56,427 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:40:58,432 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:00,560 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:00,888 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:41:02,057 INFO    wandb-upload_2:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmp18h0m2cf
+2023-03-12 19:41:02,563 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:04,568 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY2MTM2', 'digest': 'e959b78a4b576e7dc6763426dc3372c0', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY2MDM0', 'versionIndex': 90}}, 'version': 'latest'}
+2023-03-12 19:41:04,568 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:41:04,569 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:41:04,569 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_121_cd69183d9950dc56d081.table.json with policy now
+2023-03-12 19:41:04,572 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:41:04,572 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:41:04,575 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:41:04,576 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:41:04,577 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:41:04,584 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:04,854 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:41:05,284 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:41:05,307 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:41:05,626 INFO    wandb-upload_1:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/0nj92i1k-media/table/conf_mat_table_121_cd69183d9950dc56d081.table.json
+2023-03-12 19:41:05,857 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_124_7f5cf1b566310878756c.table.json
+2023-03-12 19:41:05,858 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table
+2023-03-12 19:41:05,889 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:41:06,335 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:41:06,355 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:41:06,587 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:06,842 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:41:06,860 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_125_fd7f1d96f21c1f84a85a.table.json
+2023-03-12 19:41:06,861 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_126_9b80b01678b66c11ab6c.table.json
+2023-03-12 19:41:06,862 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table
+2023-03-12 19:41:06,875 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:41:07,101 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:41:07,436 INFO    wandb-upload_0:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/fa5fz9xq-media/table/conf_mat_table_124_7f5cf1b566310878756c.table.json
+2023-03-12 19:41:08,337 INFO    wandb-upload_1:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/zuwrmr5m-media/table/conf_mat_table_126_9b80b01678b66c11ab6c.table.json
+2023-03-12 19:41:08,591 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:08,929 INFO    wandb-upload_2:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/iuwrzbof-media/table/conf_mat_table_125_fd7f1d96f21c1f84a85a.table.json
+2023-03-12 19:41:08,939 INFO    wandb-upload_3:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmp1f8ncbbn
+2023-03-12 19:41:10,594 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:10,892 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:41:11,731 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY2MjMw', 'digest': '570389b35deaf1207d9eada86c48a50a', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY2MTM2', 'versionIndex': 91}}, 'version': 'latest'}
+2023-03-12 19:41:11,732 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:41:11,733 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:41:11,733 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_122_548f15354e3316f94492.table.json with policy now
+2023-03-12 19:41:11,735 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:41:11,736 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:41:11,737 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:41:11,738 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:41:11,739 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:41:11,751 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:41:11,753 DEBUG   SenderThread:17508 [sender.py:send():336] send: stats
+2023-03-12 19:41:11,754 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:41:11,754 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:41:12,027 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:41:12,598 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:13,029 INFO    wandb-upload_0:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/cl0o1swr-media/table/conf_mat_table_122_548f15354e3316f94492.table.json
+2023-03-12 19:41:14,032 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/output.log
+2023-03-12 19:41:14,602 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:15,894 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:41:16,608 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:18,611 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:20,236 INFO    wandb-upload_2:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmpj09hq3x5
+2023-03-12 19:41:20,614 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:20,895 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:41:22,617 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:23,037 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY2MzAw', 'digest': 'ed9fbfab36cf83898d30fb3847712410', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY2MjMw', 'versionIndex': 92}}, 'version': 'latest'}
+2023-03-12 19:41:23,043 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:41:24,436 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:41:24,436 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_124_7f5cf1b566310878756c.table.json with policy now
+2023-03-12 19:41:24,437 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:41:24,438 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:41:24,440 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:41:24,440 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:41:24,441 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:41:24,622 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:25,881 INFO    wandb-upload_1:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/eph0dwn7-media/table/conf_mat_table_124_7f5cf1b566310878756c.table.json
+2023-03-12 19:41:25,980 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:41:26,054 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/config.yaml
+2023-03-12 19:41:26,055 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:41:26,626 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:28,377 INFO    wandb-upload_3:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmp78tq0r9t
+2023-03-12 19:41:28,629 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:30,124 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:41:30,149 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:41:30,758 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:30,862 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:41:30,892 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:41:30,982 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:41:31,400 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY2NDE2', 'digest': '2ff72fb7829867630955f29df4aff32b', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY2MzAw', 'versionIndex': 93}}, 'version': 'latest'}
+2023-03-12 19:41:31,400 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:41:31,401 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_125_fd7f1d96f21c1f84a85a.table.json with policy now
+2023-03-12 19:41:31,402 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:41:31,402 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:41:31,403 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:41:31,405 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:41:31,408 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:41:31,409 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:41:31,409 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:41:31,451 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:41:31,620 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:41:32,067 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:41:32,067 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_129_24a15803d35b01e4649c.table.json
+2023-03-12 19:41:32,068 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_130_325d2694ba4e5a61f86d.table.json
+2023-03-12 19:41:32,068 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_128_ee13006c21559460180c.table.json
+2023-03-12 19:41:32,069 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table
+2023-03-12 19:41:32,615 INFO    wandb-upload_0:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/2839wqvs-media/table/conf_mat_table_125_fd7f1d96f21c1f84a85a.table.json
+2023-03-12 19:41:32,762 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:33,325 INFO    wandb-upload_2:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/qlgoow39-media/table/conf_mat_table_129_24a15803d35b01e4649c.table.json
+2023-03-12 19:41:33,327 INFO    wandb-upload_1:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/vj0zalu0-media/table/conf_mat_table_130_325d2694ba4e5a61f86d.table.json
+2023-03-12 19:41:33,329 INFO    wandb-upload_3:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/kiapu36q-media/table/conf_mat_table_128_ee13006c21559460180c.table.json
+2023-03-12 19:41:34,644 INFO    wandb-upload_0:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmp1rqw2wcd
+2023-03-12 19:41:34,766 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:36,081 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:41:36,414 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY2NDY0', 'digest': '77be30903c1ebbed6ff48649b4c05098', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY2NDE2', 'versionIndex': 94}}, 'version': 'latest'}
+2023-03-12 19:41:36,415 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:41:36,415 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:41:36,416 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_126_9b80b01678b66c11ab6c.table.json with policy now
+2023-03-12 19:41:36,418 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:41:36,419 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:41:36,420 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:41:36,421 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:41:36,422 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:41:36,438 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:41:36,440 DEBUG   SenderThread:17508 [sender.py:send():336] send: stats
+2023-03-12 19:41:36,442 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:41:36,443 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:41:36,770 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:38,080 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:41:38,082 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/output.log
+2023-03-12 19:41:38,321 INFO    wandb-upload_2:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/ahx4m9bl-media/table/conf_mat_table_126_9b80b01678b66c11ab6c.table.json
+2023-03-12 19:41:38,776 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:40,781 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:41,083 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:41:42,786 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:44,790 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:46,085 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:41:46,793 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:48,797 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:48,957 INFO    wandb-upload_3:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmpc3rsgqss
+2023-03-12 19:41:50,800 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:50,941 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY2NTU4', 'digest': '7af7446e448cbadcd5230087ac887fb5', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY2NDY0', 'versionIndex': 95}}, 'version': 'latest'}
+2023-03-12 19:41:50,942 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:41:50,942 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_128_ee13006c21559460180c.table.json with policy now
+2023-03-12 19:41:50,943 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:41:50,944 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:41:50,945 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:41:50,947 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:41:50,948 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:41:50,949 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:41:51,086 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:41:52,034 INFO    wandb-upload_1:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/27oirz7u-media/table/conf_mat_table_128_ee13006c21559460180c.table.json
+2023-03-12 19:41:52,107 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:41:52,804 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:54,556 INFO    wandb-upload_0:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmp1tq601mr
+2023-03-12 19:41:54,807 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:56,087 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:41:56,320 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:41:56,345 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:41:56,810 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:57,036 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY2NjM5', 'digest': '9c91bf780946c6f56920a90379701f29', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY2NTU4', 'versionIndex': 96}}, 'version': 'latest'}
+2023-03-12 19:41:57,042 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:41:57,333 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:41:57,362 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:41:57,546 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:41:57,547 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_129_24a15803d35b01e4649c.table.json with policy now
+2023-03-12 19:41:57,547 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:41:57,548 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:41:57,549 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:41:57,550 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:41:57,550 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:41:58,117 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/config.yaml
+2023-03-12 19:41:58,118 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:41:58,118 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_132_b84d0fd73af3b9922c53.table.json
+2023-03-12 19:41:58,119 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_133_d298ae36bfdfbef7d4a1.table.json
+2023-03-12 19:41:58,120 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table
+2023-03-12 19:41:58,436 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:41:58,457 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:41:58,714 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:41:58,813 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:41:59,533 INFO    wandb-upload_2:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/vaqhkwwg-media/table/conf_mat_table_129_24a15803d35b01e4649c.table.json
+2023-03-12 19:42:00,121 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_134_35778fc5b483281ca7b0.table.json
+2023-03-12 19:42:00,122 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table
+2023-03-12 19:42:00,332 INFO    wandb-upload_1:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/kmvm9s59-media/table/conf_mat_table_133_d298ae36bfdfbef7d4a1.table.json
+2023-03-12 19:42:00,415 INFO    wandb-upload_3:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/ifqjcrz1-media/table/conf_mat_table_132_b84d0fd73af3b9922c53.table.json
+2023-03-12 19:42:01,040 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:01,181 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:42:01,485 INFO    wandb-upload_0:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/vznpgw1r-media/table/conf_mat_table_134_35778fc5b483281ca7b0.table.json
+2023-03-12 19:42:02,216 INFO    wandb-upload_2:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmpua0yi9pz
+2023-03-12 19:42:03,044 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:04,077 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY2Njk4', 'digest': '4b796b95cbcde6698435af6167a3d0db', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY2NjM5', 'versionIndex': 97}}, 'version': 'latest'}
+2023-03-12 19:42:04,078 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:42:04,078 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_130_325d2694ba4e5a61f86d.table.json with policy now
+2023-03-12 19:42:04,079 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:42:04,080 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:42:04,081 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:42:04,083 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:42:04,085 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:42:04,086 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:42:04,088 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:42:04,090 DEBUG   SenderThread:17508 [sender.py:send():336] send: stats
+2023-03-12 19:42:04,091 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:42:04,092 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:42:04,129 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:42:05,049 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:05,229 INFO    wandb-upload_3:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/m5xzuaii-media/table/conf_mat_table_130_325d2694ba4e5a61f86d.table.json
+2023-03-12 19:42:06,134 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/output.log
+2023-03-12 19:42:06,183 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:42:07,054 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:08,273 INFO    wandb-upload_0:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmp7_6dsu8r
+2023-03-12 19:42:09,059 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:10,232 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY2NzYy', 'digest': '859c45a37331a53a672315dbdd488dc5', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY2Njk4', 'versionIndex': 98}}, 'version': 'latest'}
+2023-03-12 19:42:10,233 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:42:10,234 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:42:10,234 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_132_b84d0fd73af3b9922c53.table.json with policy now
+2023-03-12 19:42:10,236 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:42:10,236 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:42:10,238 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:42:10,239 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:42:10,239 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:42:11,063 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:11,184 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:42:11,676 INFO    wandb-upload_1:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/n8ylmiur-media/table/conf_mat_table_132_b84d0fd73af3b9922c53.table.json
+2023-03-12 19:42:12,152 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:42:13,067 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:13,988 INFO    wandb-upload_2:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmpu6qpzbec
+2023-03-12 19:42:15,070 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:15,932 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY2ODE2', 'digest': 'a6af97f82625e5e185bf246165a00e83', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY2NzYy', 'versionIndex': 99}}, 'version': 'latest'}
+2023-03-12 19:42:15,933 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:42:15,933 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_133_d298ae36bfdfbef7d4a1.table.json with policy now
+2023-03-12 19:42:15,934 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:42:15,934 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:42:15,936 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:42:15,937 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:42:15,938 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:42:15,938 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:42:16,161 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:42:16,186 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:42:17,074 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:17,077 INFO    wandb-upload_3:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/09zbo8t7-media/table/conf_mat_table_133_d298ae36bfdfbef7d4a1.table.json
+2023-03-12 19:42:19,077 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:19,922 INFO    wandb-upload_0:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmpk71zi3on
+2023-03-12 19:42:20,853 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:42:20,875 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:42:21,081 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:21,236 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:42:21,409 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:42:21,449 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:42:21,742 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY2ODY2', 'digest': 'ff57d0d944c135510c625c5a88db1078', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY2ODE2', 'versionIndex': 100}}, 'version': 'latest'}
+2023-03-12 19:42:21,743 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:42:21,744 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_134_35778fc5b483281ca7b0.table.json with policy now
+2023-03-12 19:42:21,744 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:42:21,745 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:42:21,747 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:42:21,749 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:42:21,750 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:42:21,750 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:42:21,764 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:42:21,766 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:42:21,766 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:42:22,014 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:42:22,035 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:42:22,172 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:42:22,172 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_137_0d83151d1fe804c198d0.table.json
+2023-03-12 19:42:22,173 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_136_b61f28711c7ebe51b97d.table.json
+2023-03-12 19:42:22,174 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_138_3b6af863b5488b662142.table.json
+2023-03-12 19:42:22,175 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table
+2023-03-12 19:42:22,224 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:42:22,917 INFO    wandb-upload_1:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/9r47c7ck-media/table/conf_mat_table_134_35778fc5b483281ca7b0.table.json
+2023-03-12 19:42:23,084 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:23,412 INFO    wandb-upload_0:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/hquuq8st-media/table/conf_mat_table_138_3b6af863b5488b662142.table.json
+2023-03-12 19:42:23,417 INFO    wandb-upload_3:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/n7ncpcez-media/table/conf_mat_table_136_b61f28711c7ebe51b97d.table.json
+2023-03-12 19:42:23,419 INFO    wandb-upload_2:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/o0qf99ch-media/table/conf_mat_table_137_0d83151d1fe804c198d0.table.json
+2023-03-12 19:42:24,178 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/output.log
+2023-03-12 19:42:24,706 INFO    wandb-upload_1:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmp8m5fviis
+2023-03-12 19:42:25,088 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:26,336 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:42:26,898 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY2OTE1', 'digest': '0c151e9347f36e2350a97d55f0b3ac6b', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY2ODY2', 'versionIndex': 101}}, 'version': 'latest'}
+2023-03-12 19:42:26,899 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:42:26,899 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_136_b61f28711c7ebe51b97d.table.json with policy now
+2023-03-12 19:42:26,900 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:42:26,901 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:42:26,903 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:42:26,904 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:42:26,904 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:42:26,905 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:42:27,091 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:27,923 INFO    wandb-upload_3:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/icub393j-media/table/conf_mat_table_136_b61f28711c7ebe51b97d.table.json
+2023-03-12 19:42:28,189 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:42:29,097 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:31,237 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:31,337 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:42:33,241 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:35,244 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:36,193 INFO    wandb-upload_0:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmpeso73_4w
+2023-03-12 19:42:36,339 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:42:37,248 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:38,292 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY2OTY2', 'digest': '1bb1df24db949b81bbe68ccf29be5680', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY2OTE1', 'versionIndex': 102}}, 'version': 'latest'}
+2023-03-12 19:42:38,297 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:42:39,031 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:42:39,031 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_137_0d83151d1fe804c198d0.table.json with policy now
+2023-03-12 19:42:39,032 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:42:39,033 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:42:39,034 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:42:39,035 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:42:39,035 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:42:39,251 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:40,219 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/config.yaml
+2023-03-12 19:42:40,219 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:42:40,712 INFO    wandb-upload_2:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/d1zpmyvo-media/table/conf_mat_table_137_0d83151d1fe804c198d0.table.json
+2023-03-12 19:42:41,254 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:41,340 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:42:42,659 INFO    wandb-upload_1:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmp_auas0ma
+2023-03-12 19:42:43,257 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:44,826 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY3MDg3', 'digest': '2e72c29a20ccd7abd546b7cc96651775', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY2OTY2', 'versionIndex': 103}}, 'version': 'latest'}
+2023-03-12 19:42:44,827 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:42:44,827 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_138_3b6af863b5488b662142.table.json with policy now
+2023-03-12 19:42:44,828 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:42:44,829 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:42:44,829 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:42:44,832 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:42:44,832 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:42:44,833 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:42:44,842 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:42:44,844 DEBUG   SenderThread:17508 [sender.py:send():336] send: stats
+2023-03-12 19:42:44,937 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:42:45,260 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:45,431 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:42:45,432 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:42:45,452 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:42:45,954 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:42:45,969 INFO    wandb-upload_3:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/31b483mr-media/table/conf_mat_table_138_3b6af863b5488b662142.table.json
+2023-03-12 19:42:45,985 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:42:46,230 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:42:46,231 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/output.log
+2023-03-12 19:42:46,231 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_141_951e26c4be21d200b229.table.json
+2023-03-12 19:42:46,232 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_140_c5a9998dd8fbfd953286.table.json
+2023-03-12 19:42:46,233 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table
+2023-03-12 19:42:46,341 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:42:46,504 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:42:46,527 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:42:46,721 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:42:47,178 INFO    wandb-upload_0:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/o6lgryew-media/table/conf_mat_table_141_951e26c4be21d200b229.table.json
+2023-03-12 19:42:47,237 INFO    wandb-upload_2:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/rgqahd7f-media/table/conf_mat_table_140_c5a9998dd8fbfd953286.table.json
+2023-03-12 19:42:47,265 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:48,233 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_142_91c672b011dca222a89d.table.json
+2023-03-12 19:42:48,234 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table
+2023-03-12 19:42:48,377 INFO    wandb-upload_1:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmpqbysojhl
+2023-03-12 19:42:49,268 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:49,289 INFO    wandb-upload_3:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/sg1oer7z-media/table/conf_mat_table_142_91c672b011dca222a89d.table.json
+2023-03-12 19:42:51,272 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:51,329 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY3MTU0', 'digest': '199431446a2d90d912ec404ab29a6c17', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY3MDg3', 'versionIndex': 104}}, 'version': 'latest'}
+2023-03-12 19:42:51,330 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:42:51,330 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:42:51,330 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_140_c5a9998dd8fbfd953286.table.json with policy now
+2023-03-12 19:42:51,333 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:42:51,334 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:42:51,342 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:42:51,343 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:42:51,345 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:42:51,345 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:42:52,260 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:42:52,917 INFO    wandb-upload_2:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/fypprdif-media/table/conf_mat_table_140_c5a9998dd8fbfd953286.table.json
+2023-03-12 19:42:53,275 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:54,871 INFO    wandb-upload_1:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmp29ukg9yc
+2023-03-12 19:42:55,279 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:56,345 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:42:56,635 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY3MjIx', 'digest': 'ec53b77c592ddde03c54e09ae84eee78', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY3MTU0', 'versionIndex': 105}}, 'version': 'latest'}
+2023-03-12 19:42:56,635 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:42:56,636 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:42:56,636 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_141_951e26c4be21d200b229.table.json with policy now
+2023-03-12 19:42:56,639 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:42:56,639 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:42:56,641 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:42:56,642 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:42:56,643 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:42:57,282 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:42:57,809 INFO    wandb-upload_0:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/0669y37g-media/table/conf_mat_table_141_951e26c4be21d200b229.table.json
+2023-03-12 19:42:58,270 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:42:59,286 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:01,197 INFO    wandb-upload_3:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmpqss9dtsr
+2023-03-12 19:43:01,346 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:43:01,434 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:03,437 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:05,440 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:06,348 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:43:07,444 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:07,824 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY3Mjc0', 'digest': '7225481fdc189ca6071636e1def88524', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY3MjIx', 'versionIndex': 106}}, 'version': 'latest'}
+2023-03-12 19:43:07,825 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:43:07,825 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:43:07,825 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_142_91c672b011dca222a89d.table.json with policy now
+2023-03-12 19:43:07,827 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:43:07,828 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:43:07,829 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:43:07,830 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:43:07,831 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:43:07,832 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:43:07,833 DEBUG   SenderThread:17508 [sender.py:send():336] send: stats
+2023-03-12 19:43:07,980 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:43:08,291 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:43:09,118 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:43:09,120 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:43:09,139 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:43:09,448 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:09,707 INFO    wandb-upload_2:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/z4cvsfup-media/table/conf_mat_table_142_91c672b011dca222a89d.table.json
+2023-03-12 19:43:10,223 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:43:10,250 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:43:10,295 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/output.log
+2023-03-12 19:43:10,296 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_145_3583007ce6e21dc7f9aa.table.json
+2023-03-12 19:43:10,297 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_144_ed24737cc524575e0da9.table.json
+2023-03-12 19:43:10,298 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table
+2023-03-12 19:43:11,122 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:43:11,144 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:43:11,325 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:43:11,453 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:11,551 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:43:11,708 INFO    wandb-upload_0:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/teyrbikz-media/table/conf_mat_table_144_ed24737cc524575e0da9.table.json
+2023-03-12 19:43:11,712 INFO    wandb-upload_1:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/nqllbxkd-media/table/conf_mat_table_145_3583007ce6e21dc7f9aa.table.json
+2023-03-12 19:43:12,300 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_146_1d694301bc75a8309bda.table.json
+2023-03-12 19:43:12,301 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table
+2023-03-12 19:43:13,247 INFO    wandb-upload_3:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmp2544a_wo
+2023-03-12 19:43:13,289 INFO    wandb-upload_0:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/sh3ugxou-media/table/conf_mat_table_146_1d694301bc75a8309bda.table.json
+2023-03-12 19:43:13,458 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:15,462 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:15,621 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY3Mzk4', 'digest': '2d3394b272a65d097a3cfcc88a923700', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY3Mjc0', 'versionIndex': 107}}, 'version': 'latest'}
+2023-03-12 19:43:15,627 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:43:16,557 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:43:17,465 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:19,469 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:21,221 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:43:21,221 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_144_ed24737cc524575e0da9.table.json with policy now
+2023-03-12 19:43:21,222 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:43:21,223 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:43:21,224 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:43:21,225 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:43:21,226 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:43:21,472 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:21,559 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:43:22,328 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/config.yaml
+2023-03-12 19:43:22,329 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:43:22,371 INFO    wandb-upload_2:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/yvq7qfjd-media/table/conf_mat_table_144_ed24737cc524575e0da9.table.json
+2023-03-12 19:43:23,475 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:25,478 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:26,560 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:43:27,482 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:27,502 INFO    wandb-upload_3:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmp65xnmu4j
+2023-03-12 19:43:29,485 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:30,092 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY3NTI4', 'digest': '7ee583b1d4b739563379940111ca3e6b', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY3Mzk4', 'versionIndex': 108}}, 'version': 'latest'}
+2023-03-12 19:43:30,092 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:43:30,093 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_145_3583007ce6e21dc7f9aa.table.json with policy now
+2023-03-12 19:43:30,094 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:43:30,095 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:43:30,095 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:43:30,097 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:43:30,097 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:43:30,098 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:43:30,345 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:43:31,116 INFO    wandb-upload_1:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/f72qkdpx-media/table/conf_mat_table_145_3583007ce6e21dc7f9aa.table.json
+2023-03-12 19:43:31,561 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:43:31,614 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:33,617 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:35,621 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:36,563 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:43:37,625 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:39,628 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:41,564 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:43:41,631 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:41,683 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:43:41,708 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:43:42,363 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_148_ba0fb405d5fce99e0e3c.table.json
+2023-03-12 19:43:42,364 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table
+2023-03-12 19:43:42,597 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:43:42,626 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:43:42,862 INFO    wandb-upload_0:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmp3vfqvxbp
+2023-03-12 19:43:43,208 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: log_artifact
+2023-03-12 19:43:43,231 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:43:43,424 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-12 19:43:43,634 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:43,749 INFO    wandb-upload_2:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/8tvg2cm8-media/table/conf_mat_table_148_ba0fb405d5fce99e0e3c.table.json
+2023-03-12 19:43:44,367 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_150_3edac7f38e91199af5a6.table.json
+2023-03-12 19:43:44,367 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table/conf_mat_table_149_30b3b15d4fc68e793710.table.json
+2023-03-12 19:43:44,368 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/media/table
+2023-03-12 19:43:45,431 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY3NTg5', 'digest': '474ed24d4f1e059687eb4b569192ab8f', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY3NTI4', 'versionIndex': 109}}, 'version': 'latest'}
+2023-03-12 19:43:45,432 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:43:45,433 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_146_1d694301bc75a8309bda.table.json with policy now
+2023-03-12 19:43:45,434 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:43:45,436 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:43:45,437 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:43:45,439 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:43:45,440 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:43:45,440 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:43:45,455 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:43:45,457 DEBUG   SenderThread:17508 [sender.py:send():336] send: stats
+2023-03-12 19:43:45,459 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:43:45,459 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:43:45,638 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:46,395 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:43:46,396 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/output.log
+2023-03-12 19:43:46,760 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:43:46,911 INFO    wandb-upload_3:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/pnss3rpk-media/table/conf_mat_table_150_3edac7f38e91199af5a6.table.json
+2023-03-12 19:43:46,913 INFO    wandb-upload_1:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/w7kvili9-media/table/conf_mat_table_149_30b3b15d4fc68e793710.table.json
+2023-03-12 19:43:46,972 INFO    wandb-upload_2:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/qysyc5lg-media/table/conf_mat_table_146_1d694301bc75a8309bda.table.json
+2023-03-12 19:43:47,642 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:49,646 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:50,355 INFO    wandb-upload_0:17508 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmpoiyuyvkx
+2023-03-12 19:43:51,649 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:51,763 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:43:53,653 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:55,656 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:56,764 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:43:57,659 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:59,662 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:43:59,755 INFO    SenderThread:17508 [sender.py:send_request_log_artifact():1381] logged artifact run-xb1mlaon-conf_mat_table - {'id': 'QXJ0aWZhY3Q6Mzk1MDY3NzMz', 'digest': '9ef12aade2fb4f3e14c7167cff37eb89', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU2Nzk2NTEx', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6Mzk1MDY3NTg5', 'versionIndex': 110}}, 'version': 'latest'}
+2023-03-12 19:43:59,761 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: status_report
+2023-03-12 19:44:00,851 DEBUG   SenderThread:17508 [sender.py:send():336] send: files
+2023-03-12 19:44:00,851 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file media/table/conf_mat_table_148_ba0fb405d5fce99e0e3c.table.json with policy now
+2023-03-12 19:44:00,852 DEBUG   SenderThread:17508 [sender.py:send():336] send: history
+2023-03-12 19:44:00,852 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: summary_record
+2023-03-12 19:44:00,857 INFO    SenderThread:17508 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-12 19:44:00,858 DEBUG   SenderThread:17508 [sender.py:send():336] send: config
+2023-03-12 19:44:00,859 DEBUG   SenderThread:17508 [sender.py:send_request():363] send_request: log_artifact
+2023-03-12 19:44:01,765 DEBUG   HandlerThread:17508 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-12 19:44:01,797 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-12 19:44:02,425 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/config.yaml
+2023-03-12 19:44:02,426 INFO    Thread-13 :17508 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230312_192622-xb1mlaon/files/wandb-summary.json
+2023-03-12 19:44:02,646 INFO    wandb-upload_1:17508 [upload_job.py:push():138] Uploaded file /tmp/tmp13gw068vwandb/30sb7y3p-media/table/conf_mat_table_148_ba0fb405d5fce99e0e3c.table.json
+2023-03-12 19:44:03,800 ERROR   gpu       :17508 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
