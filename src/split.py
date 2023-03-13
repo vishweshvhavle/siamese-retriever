@@ -19,7 +19,7 @@ if not os.path.exists(main_dir):
     os.mkdir(main_dir)
 
 # Dataset Set Size: 1514 Images
-# Custom Train Set Size: 1211 Images
+# Custom Train Set Size: 1212 Images
 # Custom Test Set Size: 151 Images
 # Custom Val Set Size: 151 Images
 
