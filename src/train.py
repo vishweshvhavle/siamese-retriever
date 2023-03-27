@@ -21,11 +21,12 @@ import imageio
 from dataloader import *
 from model import *
 
-classes = ('0','1','2','3','4')
+classes = ('0','1','2','3','4','5','6','7')
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 torch.manual_seed(0)
 
-num_epochs = 100
+num_epochs = 20
+model = Net()
 model.to(device)
 
 criterion = nn.CrossEntropyLoss()
@@ -34,15 +35,15 @@ optimizer = optim.SGD(model.parameters(), lr=0.001, momentum=0.9)
 # start a new wandb run to track this script
 wandb.init(
     entity = "cse-344", 
-    project = "baseline",
-    name = "manali_net"
+    project = "mid_review",
+    name = "net1"
 )
 
 wandb.config={
     "learning_rate": 0.02,
     "architecture": "CNN",
-    "dataset": "IF300",
-    "epochs": 100,
+    "dataset": "IF5000",
+    "epochs": 20,
     "batch_size": 64
     }
 
@@ -63,9 +64,6 @@ for epoch in range(num_epochs):  # loop over the dataset multiple times
     for i, data in enumerate(train_loader, 0):
         # get the inputs; data is a list of [inputs, labels]
         inputs, labels = data
-        for i in range(len(labels)):
-            if labels[i] == 10:
-                labels[i] = 0
         inputs, labels = inputs.to(device), labels.to(device)
 
         # zero the parameter gradients
@@ -95,9 +93,6 @@ for epoch in range(num_epochs):  # loop over the dataset multiple times
         cnt = 0
         for data in val_loader:
             images, labels = data
-            for i in range(len(labels)):
-                if labels[i] == 10:
-                    labels[i] = 0
             images, labels = images.to(device), labels.to(device)
             # calculate outputs by running images through the modelwork
             outputs = model(images)
@@ -128,7 +123,7 @@ for epoch in range(num_epochs):  # loop over the dataset multiple times
 
 print('Finished Training')
 
-PATH = './if300_model1.pth'
+PATH = './if5000_model1.pth'
 torch.save(model.state_dict(), PATH)
 artifact = wandb.Artifact('model', type='net')
 artifact.add_file(PATH)

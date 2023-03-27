@@ -18,7 +18,7 @@ import scipy.io as sio
 import imageio
 
 class IF300Dataset(Dataset):
-    """Custom Dataset for loading cropped IF300 images"""
+    """Custom Dataset for loading cropped IF5000 images"""
     
     def __init__(self, csv_path, img_dir, transform=None):
     
@@ -44,7 +44,7 @@ class IF300Dataset(Dataset):
 custom_transform = transforms.Compose(
                     [transforms.ToTensor(),
                     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
-                    transforms.Resize((32, 32))])
+                    transforms.Resize((64, 64))])
 
 augment_transform = transforms.Compose(
                     [transforms.ToTensor(),

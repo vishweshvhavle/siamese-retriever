@@ -35,11 +35,10 @@ for n in arr:
 	    dic[n] = 1
 
 test = dic
-
-classes = {'biryani': 0, 'butter_chicken': 1, 'masala_dosa': 2, 'pani_puri': 3, 'vada_pav': 4}
+classes = {'biryani': 0, 'butter_chicken': 1, 'dhokla': 2,'gulab_jamun': 3, 'harabara_kebab': 4, 'masala_dosa': 5, 'pani_puri': 6, 'vada_pav': 7}
 class_names = list(classes.keys())
 
-nums = [0, 1, 2, 3, 4]
+nums = [0, 1, 2, 3, 4, 5, 6, 7]
 count = []
 for n in nums:
 	count.append(train[n])

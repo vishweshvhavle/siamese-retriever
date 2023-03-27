@@ -11,15 +11,14 @@ dst_dir = os.path.join('../data/', 'images')
 if not os.path.exists(dst_dir):
     os.mkdir(dst_dir)
 
-classes = {'biryani': 0, 'butter_chicken': 1, 'masala_dosa': 2, 'pani_puri': 3, 'vada_pav': 4}
+classes = {'biryani': 0, 'butter_chicken': 1, 'dhokla': 2,'gulab_jamun': 3, 'harabara_kebab': 4, 'masala_dosa': 5, 'pani_puri': 6, 'vada_pav': 7}
 class_names = list(classes.keys())
 dic = {}
 # image_id = 1
 with open(os.path.join('../data/', 'labels.csv'), 'w') as out_f:
-	for folder in glob.iglob(os.path.join('../imagedataset', "*")):
-		label = folder[16:]
+	for folder in glob.iglob(os.path.join('../dataset', "*")):
+		label = folder[11:]
 		label_id = classes[label]
-
 
 		for file in glob.iglob(os.path.join(folder, "*.jpg")):
 			# os.rename(file, os.path.join(folder, str(image_id) + ".jpg") )

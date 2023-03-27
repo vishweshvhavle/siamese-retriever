@@ -18,10 +18,10 @@ main_dir='../data'
 if not os.path.exists(main_dir):
     os.mkdir(main_dir)
 
-# Dataset Set Size: 1514 Images
-# Custom Train Set Size: 1212 Images
-# Custom Test Set Size: 151 Images
-# Custom Val Set Size: 151 Images
+# Dataset Set Size: 5640 Images
+# Custom Train Set Size: 3948 Images
+# Custom Test Set Size: 1128 Images
+# Custom Val Set Size: 564 Images
 
 with open('../data/original/labels.csv', 'r') as csvfile:
     reader = csv.reader(csvfile)
@@ -69,7 +69,7 @@ with open('../data/original/labels.csv', 'r') as csvfile:
             shutil.copy(src_dir, dst_dir)
 
             count += 1
-            if count == 151:
+            if count == 1128:
                 label = 'test'
-            elif count == 302:
+            elif count == 1692:
                 label = 'train'
