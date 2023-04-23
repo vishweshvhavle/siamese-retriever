@@ -22,26 +22,22 @@ from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
 from dataloader import *
 from model import *
 
-classes = ['0','1','2','3','4']
+classes = ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19')
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-PATH = './if300_model1.pth'
+PATH = './if20K_model1.pth'
+model = Net()
 model.load_state_dict(torch.load(PATH))
 model.to(device)
 
-filenames_list = []
 if not os.path.exists('structured_data'):
     os.mkdir('structured_data')
-if not os.path.exists('structured_data/0'):
-    os.mkdir('structured_data/0')
-if not os.path.exists('structured_data/1'):
-    os.mkdir('structured_data/1')
-if not os.path.exists('structured_data/2'):
-    os.mkdir('structured_data/2')
-if not os.path.exists('structured_data/3'):
-    os.mkdir('structured_data/3')
-if not os.path.exists('structured_data/4'):
-    os.mkdir('structured_data/4')
+
+for i in range(20):
+    if not os.path.exists(f'structured_data/{i}'):
+        os.mkdir(f'structured_data/{i}')
+
+filenames_list = []
 
 with torch.no_grad():
     for data in test_loader:

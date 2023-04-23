@@ -30,13 +30,14 @@ import random
 custom_transform = transforms.Compose([
     transforms.ToTensor(),
     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
-    transforms.Resize((32, 32))
+    transforms.Resize((64, 64))
 ])
 
-classes = ['0', '1', '2', '3', '4']
+classes = ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19')
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-PATH = './if300_model1.pth'
+PATH = './if20K_model1.pth'
+model = Net()
 model.load_state_dict(torch.load(PATH))
 model.to(device)
 

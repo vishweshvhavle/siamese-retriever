@@ -31,6 +31,7 @@ class IF5000Dataset(Dataset):
 
     def __getitem__(self, index):
         img = Image.open(os.path.join(self.img_dir, self.img_names[index]))
+        img = img.convert('RGB')
         
         if self.transform is not None:
             img = self.transform(img)
@@ -45,7 +46,6 @@ custom_transform = transforms.Compose(
                     [transforms.ToTensor(),
                     transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
                     transforms.Resize((64, 64))])
-                    # transforms.Resize((224, 224))])
 
 
 train_dataset = IF5000Dataset(csv_path='../data/train/train_labels.csv',

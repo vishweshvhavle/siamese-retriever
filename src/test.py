@@ -21,31 +21,15 @@ from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
 from dataloader import *
 from model import *
 
-classes = ('0','1','2','3','4','5','6','7')
+classes = ('0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19')
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-# dataiter = iter(test_loader)
-# images, labels = next(dataiter)
-# images, labels = images.to(device), labels.to(device)
 
-# print('GroundTruth: ', ' '.join(f'{classes[labels[j]-1]:5s}' for j in range(40)))
-
-PATH = './if5000_model1.pth'
+PATH = './if20K_model1.pth'
 model = Net()
 model.load_state_dict(torch.load(PATH))
 model.to(device)
 
 transform = transforms.ToPILImage()
-
-# outputs = model(images)
-# _, predicted = torch.max(outputs, 1)
-# print('Predicted: ', ' '.join(f'{classes[predicted[j]-1]:5s}' for j in range(40)))
-
-# for j in range(40):
-#     if classes[labels[j]-1] != classes[predicted[j]-1]:
-#         img = transform(images[j])
-#         img.show()
-#         print('True: ',classes[labels[j]-1])
-#         print('Prediction: ',classes[predicted[j]-1])
 
 y_true = []
 y_pred = []
@@ -72,14 +56,12 @@ with torch.no_grad():
         y_true += labels
         y_pred += predicted
 
-print(f'Accuracy of the network on the 1128 test images: ', 100 * correct // total)
-print(f'F1 Score of the network on the 1128 test images: ', f1_score(y_true, y_pred, average='weighted'))
+print(f'Accuracy of the network on the 3121 test images: ', 100 * correct // total)
+print(f'F1 Score of the network on the 3121 test images: ', f1_score(y_true, y_pred, average='weighted'))
 
-# prepare to count predictions for each class
 correct_pred = {classname: 0 for classname in classes}
 total_pred = {classname: 0 for classname in classes}
 
-# again no gradients needed
 with torch.no_grad():
     for data in test_loader:
         images, labels = data
@@ -89,14 +71,11 @@ with torch.no_grad():
         images, labels = images.to(device), labels.to(device)
         outputs = model(images)
         _, predictions = torch.max(outputs, 1)
-        # collect the correct predictions for each class
         for label, prediction in zip(labels, predictions):
             if label == prediction:
                 correct_pred[classes[label]] += 1
             total_pred[classes[label]] += 1
 
-
-# print accuracy for each class
 for classname, correct_count in correct_pred.items():
-    accuracy = 100 * float(correct_count) / total_pred[classname]
+    accuracy = 100 * float(correct_count) / (float(total_pred[classname])+0.001)
     print(f'Accuracy for class: {classname:5s} is {accuracy:.1f} %')
