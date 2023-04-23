@@ -1,0 +1,97 @@
+{
+    "os": "Linux-5.19.0-40-generic-x86_64-with-glibc2.35",
+    "python": "3.9.12",
+    "heartbeatAt": "2023-04-23T14:00:25.570996",
+    "startedAt": "2023-04-23T14:00:23.513923",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/vish/siamese-retriever/src/train.py",
+    "codePath": "src/train.py",
+    "git": {
+        "remote": "git@github.com:vishweshvhavle/siamese-retriever.git",
+        "commit": "6ccfb06687084ff201d27798e9b7644aea35016a"
+    },
+    "email": "vishweshvhavle@gmail.com",
+    "root": "/home/vish/siamese-retriever",
+    "host": "vish-ubuntu",
+    "username": "vish",
+    "executable": "/home/vish/anaconda3/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 1041.7068333333334,
+        "min": 800.0,
+        "max": 5000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 900.076,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 900.358,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 900.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 900.04,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 900.165,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 900.532,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 900.081,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 900.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 2600.0,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 900.028,
+            "min": 800.0,
+            "max": 5000.0
+        },
+        {
+            "current": 900.989,
+            "min": 800.0,
+            "max": 5000.0
+        }
+    ],
+    "disk": {
+        "total": 457.3778419494629,
+        "used": 360.9145393371582
+    },
+    "memory": {
+        "total": 15.25299072265625
+    }
+}

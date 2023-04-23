@@ -1,0 +1,183 @@
+2023-04-23 19:30:23,540 INFO    StreamThr :180372 [internal.py:wandb_internal():87] W&B internal server running at pid: 180372, started at: 2023-04-23 19:30:23.538813
+2023-04-23 19:30:23,549 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: status
+2023-04-23 19:30:23,556 INFO    WriterThread:180372 [datastore.py:open_for_write():85] open: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/run-gutsrh70.wandb
+2023-04-23 19:30:23,558 DEBUG   SenderThread:180372 [sender.py:send():336] send: header
+2023-04-23 19:30:23,633 DEBUG   SenderThread:180372 [sender.py:send():336] send: run
+2023-04-23 19:30:25,070 INFO    SenderThread:180372 [dir_watcher.py:__init__():216] watching files in: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files
+2023-04-23 19:30:25,071 INFO    SenderThread:180372 [sender.py:_start_run_threads():1067] run started: gutsrh70 with start time 1682258423.543009
+2023-04-23 19:30:25,071 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: summary_record
+2023-04-23 19:30:25,072 INFO    SenderThread:180372 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-23 19:30:25,077 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: check_version
+2023-04-23 19:30:25,078 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: check_version
+2023-04-23 19:30:25,509 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: run_start
+2023-04-23 19:30:25,545 ERROR   HandlerThread:180372 [gpu.py:is_available():351] Error initializing NVML: RM has detected an NVML/RM version mismatch.
+2023-04-23 19:30:25,547 DEBUG   HandlerThread:180372 [system_info.py:__init__():31] System info init
+2023-04-23 19:30:25,548 DEBUG   HandlerThread:180372 [system_info.py:__init__():46] System info init done
+2023-04-23 19:30:25,548 INFO    HandlerThread:180372 [system_monitor.py:start():151] Starting system monitor
+2023-04-23 19:30:25,549 INFO    SystemMonitor:180372 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-04-23 19:30:25,549 INFO    HandlerThread:180372 [system_monitor.py:probe():172] Collecting system info
+2023-04-23 19:30:25,550 INFO    SystemMonitor:180372 [interfaces.py:start():168] Started cpu
+2023-04-23 19:30:25,551 INFO    SystemMonitor:180372 [interfaces.py:start():168] Started disk
+2023-04-23 19:30:25,553 INFO    SystemMonitor:180372 [interfaces.py:start():168] Started memory
+2023-04-23 19:30:25,558 INFO    SystemMonitor:180372 [interfaces.py:start():168] Started network
+2023-04-23 19:30:25,570 DEBUG   HandlerThread:180372 [system_info.py:probe():195] Probing system
+2023-04-23 19:30:25,587 DEBUG   HandlerThread:180372 [system_info.py:_probe_git():180] Probing git
+2023-04-23 19:30:25,625 DEBUG   HandlerThread:180372 [system_info.py:_probe_git():188] Probing git done
+2023-04-23 19:30:25,625 DEBUG   HandlerThread:180372 [system_info.py:probe():241] Probing system done
+2023-04-23 19:30:25,626 DEBUG   HandlerThread:180372 [system_monitor.py:probe():181] {'os': 'Linux-5.19.0-40-generic-x86_64-with-glibc2.35', 'python': '3.9.12', 'heartbeatAt': '2023-04-23T14:00:25.570996', 'startedAt': '2023-04-23T14:00:23.513923', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/home/vish/siamese-retriever/src/train.py', 'codePath': 'src/train.py', 'git': {'remote': 'git@github.com:vishweshvhavle/siamese-retriever.git', 'commit': '6ccfb06687084ff201d27798e9b7644aea35016a'}, 'email': 'vishweshvhavle@gmail.com', 'root': '/home/vish/siamese-retriever', 'host': 'vish-ubuntu', 'username': 'vish', 'executable': '/home/vish/anaconda3/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 1041.7068333333334, 'min': 800.0, 'max': 5000.0}, 'cpu_freq_per_core': [{'current': 900.076, 'min': 800.0, 'max': 5000.0}, {'current': 900.358, 'min': 800.0, 'max': 5000.0}, {'current': 900.0, 'min': 800.0, 'max': 5000.0}, {'current': 900.04, 'min': 800.0, 'max': 5000.0}, {'current': 900.165, 'min': 800.0, 'max': 5000.0}, {'current': 900.532, 'min': 800.0, 'max': 5000.0}, {'current': 900.081, 'min': 800.0, 'max': 5000.0}, {'current': 900.0, 'min': 800.0, 'max': 5000.0}, {'current': 2600.0, 'min': 800.0, 'max': 5000.0}, {'current': 2600.0, 'min': 800.0, 'max': 5000.0}, {'current': 900.028, 'min': 800.0, 'max': 5000.0}, {'current': 900.989, 'min': 800.0, 'max': 5000.0}], 'disk': {'total': 457.3778419494629, 'used': 360.9145393371582}, 'memory': {'total': 15.25299072265625}}
+2023-04-23 19:30:25,626 INFO    HandlerThread:180372 [system_monitor.py:probe():182] Finished collecting system info
+2023-04-23 19:30:25,626 INFO    HandlerThread:180372 [system_monitor.py:probe():185] Publishing system info
+2023-04-23 19:30:25,626 DEBUG   HandlerThread:180372 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-23 19:30:25,629 DEBUG   HandlerThread:180372 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-23 19:30:25,629 DEBUG   HandlerThread:180372 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-04-23 19:30:26,076 INFO    Thread-13 :180372 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/wandb-summary.json
+2023-04-23 19:30:26,077 INFO    Thread-13 :180372 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/conda-environment.yaml
+2023-04-23 19:30:26,077 INFO    Thread-13 :180372 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/requirements.txt
+2023-04-23 19:30:29,610 DEBUG   HandlerThread:180372 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-23 19:30:29,612 INFO    HandlerThread:180372 [system_monitor.py:probe():187] Finished publishing system info
+2023-04-23 19:30:29,640 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: status_report
+2023-04-23 19:30:29,642 DEBUG   SenderThread:180372 [sender.py:send():336] send: files
+2023-04-23 19:30:29,643 INFO    SenderThread:180372 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-04-23 19:30:29,656 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-23 19:30:29,656 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: stop_status
+2023-04-23 19:30:30,079 INFO    Thread-13 :180372 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/wandb-metadata.json
+2023-04-23 19:30:30,162 DEBUG   SenderThread:180372 [sender.py:send():336] send: telemetry
+2023-04-23 19:30:30,163 DEBUG   SenderThread:180372 [sender.py:send():336] send: telemetry
+2023-04-23 19:30:31,079 INFO    Thread-13 :180372 [dir_watcher.py:_on_file_created():275] file/dir created: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/output.log
+2023-04-23 19:30:31,300 INFO    wandb-upload_0:180372 [upload_job.py:push():138] Uploaded file /tmp/tmp59rzrjzywandb/k9up1rdz-wandb-metadata.json
+2023-04-23 19:30:33,081 INFO    Thread-13 :180372 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/output.log
+2023-04-23 19:30:34,636 DEBUG   SenderThread:180372 [sender.py:send():336] send: exit
+2023-04-23 19:30:34,637 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: status_report
+2023-04-23 19:30:34,637 INFO    SenderThread:180372 [sender.py:send_exit():559] handling exit code: 1
+2023-04-23 19:30:34,638 INFO    SenderThread:180372 [sender.py:send_exit():561] handling runtime: 9
+2023-04-23 19:30:34,642 INFO    SenderThread:180372 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-23 19:30:34,642 INFO    SenderThread:180372 [sender.py:send_exit():567] send defer
+2023-04-23 19:30:34,642 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: defer
+2023-04-23 19:30:34,643 INFO    HandlerThread:180372 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-23 19:30:34,643 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: defer
+2023-04-23 19:30:34,643 INFO    SenderThread:180372 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-04-23 19:30:34,644 INFO    SenderThread:180372 [sender.py:transition_state():587] send defer: 1
+2023-04-23 19:30:34,644 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: defer
+2023-04-23 19:30:34,644 INFO    HandlerThread:180372 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-23 19:30:34,645 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: defer
+2023-04-23 19:30:34,645 INFO    SenderThread:180372 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-04-23 19:30:34,645 INFO    SenderThread:180372 [sender.py:transition_state():587] send defer: 2
+2023-04-23 19:30:34,645 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: defer
+2023-04-23 19:30:34,646 INFO    HandlerThread:180372 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-23 19:30:34,646 INFO    HandlerThread:180372 [system_monitor.py:finish():161] Stopping system monitor
+2023-04-23 19:30:34,647 INFO    HandlerThread:180372 [interfaces.py:finish():175] Joined cpu
+2023-04-23 19:30:34,647 DEBUG   SystemMonitor:180372 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-04-23 19:30:34,648 DEBUG   SystemMonitor:180372 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-04-23 19:30:34,648 DEBUG   SystemMonitor:180372 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-04-23 19:30:34,648 INFO    HandlerThread:180372 [interfaces.py:finish():175] Joined disk
+2023-04-23 19:30:34,650 INFO    HandlerThread:180372 [interfaces.py:finish():175] Joined memory
+2023-04-23 19:30:34,650 INFO    HandlerThread:180372 [interfaces.py:finish():175] Joined network
+2023-04-23 19:30:34,651 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: defer
+2023-04-23 19:30:34,651 INFO    SenderThread:180372 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-04-23 19:30:34,651 INFO    SenderThread:180372 [sender.py:transition_state():587] send defer: 3
+2023-04-23 19:30:34,652 DEBUG   SenderThread:180372 [sender.py:send():336] send: stats
+2023-04-23 19:30:34,652 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: defer
+2023-04-23 19:30:34,653 INFO    HandlerThread:180372 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-23 19:30:34,654 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: defer
+2023-04-23 19:30:34,654 INFO    SenderThread:180372 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-04-23 19:30:34,654 INFO    SenderThread:180372 [sender.py:transition_state():587] send defer: 4
+2023-04-23 19:30:34,654 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: defer
+2023-04-23 19:30:34,654 INFO    HandlerThread:180372 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-23 19:30:34,655 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: defer
+2023-04-23 19:30:34,655 INFO    SenderThread:180372 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-04-23 19:30:34,655 INFO    SenderThread:180372 [sender.py:transition_state():587] send defer: 5
+2023-04-23 19:30:34,656 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: defer
+2023-04-23 19:30:34,656 INFO    HandlerThread:180372 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-23 19:30:34,657 DEBUG   SenderThread:180372 [sender.py:send():336] send: summary
+2023-04-23 19:30:34,657 INFO    SenderThread:180372 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-04-23 19:30:34,658 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: defer
+2023-04-23 19:30:34,658 INFO    SenderThread:180372 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-04-23 19:30:34,658 INFO    SenderThread:180372 [sender.py:transition_state():587] send defer: 6
+2023-04-23 19:30:34,658 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: defer
+2023-04-23 19:30:34,659 INFO    HandlerThread:180372 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-23 19:30:34,659 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: defer
+2023-04-23 19:30:34,659 INFO    SenderThread:180372 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-04-23 19:30:34,665 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: status_report
+2023-04-23 19:30:35,082 INFO    Thread-13 :180372 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/wandb-summary.json
+2023-04-23 19:30:35,164 INFO    SenderThread:180372 [sender.py:transition_state():587] send defer: 7
+2023-04-23 19:30:35,165 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: defer
+2023-04-23 19:30:35,165 INFO    HandlerThread:180372 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-23 19:30:35,166 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: defer
+2023-04-23 19:30:35,166 INFO    SenderThread:180372 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-04-23 19:30:35,635 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-23 19:30:36,083 INFO    Thread-13 :180372 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/config.yaml
+2023-04-23 19:30:36,661 INFO    SenderThread:180372 [sender.py:transition_state():587] send defer: 8
+2023-04-23 19:30:36,661 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: poll_exit
+2023-04-23 19:30:36,662 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: defer
+2023-04-23 19:30:36,662 INFO    HandlerThread:180372 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-23 19:30:36,663 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: defer
+2023-04-23 19:30:36,663 INFO    SenderThread:180372 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-04-23 19:30:36,680 INFO    SenderThread:180372 [sender.py:transition_state():587] send defer: 9
+2023-04-23 19:30:36,680 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: defer
+2023-04-23 19:30:36,681 INFO    HandlerThread:180372 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-23 19:30:36,682 DEBUG   SenderThread:180372 [sender.py:send():336] send: artifact
+2023-04-23 19:30:37,084 INFO    Thread-13 :180372 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/output.log
+2023-04-23 19:30:40,639 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-23 19:30:41,163 INFO    wandb-upload_0:180372 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmpbzzdjrh0
+2023-04-23 19:30:41,168 INFO    wandb-upload_1:180372 [upload_job.py:push():96] Uploaded file /home/vish/.local/share/wandb/artifacts/staging/tmpak6ym0nf
+2023-04-23 19:30:44,916 INFO    SenderThread:180372 [sender.py:send_artifact():1417] sent artifact job-git_github.com_vishweshvhavle_siamese-retriever.git_src_train.py - {'id': 'QXJ0aWZhY3Q6NDMxNDc3NDk4', 'digest': 'fda3ec4ca9faafdb75347e8ad0b871a8', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjY0MDQ2NTYw', 'latestArtifact': None}, 'version': 'latest'}
+2023-04-23 19:30:44,917 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: defer
+2023-04-23 19:30:44,917 INFO    SenderThread:180372 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-04-23 19:30:44,917 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: status_report
+2023-04-23 19:30:44,917 INFO    SenderThread:180372 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-04-23 19:30:45,087 INFO    SenderThread:180372 [dir_watcher.py:finish():392] scan: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files
+2023-04-23 19:30:45,087 INFO    SenderThread:180372 [dir_watcher.py:finish():406] scan save: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/config.yaml config.yaml
+2023-04-23 19:30:45,088 INFO    SenderThread:180372 [dir_watcher.py:finish():406] scan save: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/wandb-metadata.json wandb-metadata.json
+2023-04-23 19:30:45,088 INFO    SenderThread:180372 [dir_watcher.py:finish():406] scan save: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/requirements.txt requirements.txt
+2023-04-23 19:30:45,097 INFO    SenderThread:180372 [dir_watcher.py:finish():406] scan save: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/wandb-summary.json wandb-summary.json
+2023-04-23 19:30:45,098 INFO    SenderThread:180372 [dir_watcher.py:finish():406] scan save: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/output.log output.log
+2023-04-23 19:30:45,099 INFO    SenderThread:180372 [dir_watcher.py:finish():406] scan save: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/conda-environment.yaml conda-environment.yaml
+2023-04-23 19:30:45,126 INFO    SenderThread:180372 [sender.py:transition_state():587] send defer: 10
+2023-04-23 19:30:45,127 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: defer
+2023-04-23 19:30:45,127 INFO    HandlerThread:180372 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-23 19:30:45,128 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: defer
+2023-04-23 19:30:45,129 INFO    SenderThread:180372 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-04-23 19:30:45,129 INFO    SenderThread:180372 [file_pusher.py:finish():162] shutting down file pusher
+2023-04-23 19:30:45,641 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-23 19:30:46,550 INFO    wandb-upload_1:180372 [upload_job.py:push():138] Uploaded file /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/output.log
+2023-04-23 19:30:46,755 INFO    wandb-upload_0:180372 [upload_job.py:push():138] Uploaded file /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/config.yaml
+2023-04-23 19:30:46,757 INFO    wandb-upload_2:180372 [upload_job.py:push():138] Uploaded file /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/requirements.txt
+2023-04-23 19:30:46,758 INFO    wandb-upload_3:180372 [upload_job.py:push():138] Uploaded file /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/files/wandb-summary.json
+2023-04-23 19:30:46,959 INFO    Thread-12 :180372 [sender.py:transition_state():587] send defer: 11
+2023-04-23 19:30:46,960 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: defer
+2023-04-23 19:30:46,960 INFO    HandlerThread:180372 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-23 19:30:46,961 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: defer
+2023-04-23 19:30:46,961 INFO    SenderThread:180372 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-04-23 19:30:46,962 INFO    SenderThread:180372 [file_pusher.py:join():167] waiting for file pusher
+2023-04-23 19:30:46,962 INFO    SenderThread:180372 [sender.py:transition_state():587] send defer: 12
+2023-04-23 19:30:46,962 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: defer
+2023-04-23 19:30:46,962 INFO    HandlerThread:180372 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-23 19:30:46,963 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: defer
+2023-04-23 19:30:46,964 INFO    SenderThread:180372 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-04-23 19:30:47,473 INFO    SenderThread:180372 [sender.py:transition_state():587] send defer: 13
+2023-04-23 19:30:47,474 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: defer
+2023-04-23 19:30:47,474 INFO    HandlerThread:180372 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-23 19:30:47,475 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: defer
+2023-04-23 19:30:47,475 INFO    SenderThread:180372 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-04-23 19:30:47,475 INFO    SenderThread:180372 [sender.py:transition_state():587] send defer: 14
+2023-04-23 19:30:47,476 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: defer
+2023-04-23 19:30:47,477 INFO    HandlerThread:180372 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-23 19:30:47,477 DEBUG   SenderThread:180372 [sender.py:send():336] send: final
+2023-04-23 19:30:47,478 DEBUG   SenderThread:180372 [sender.py:send():336] send: footer
+2023-04-23 19:30:47,478 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: defer
+2023-04-23 19:30:47,478 INFO    SenderThread:180372 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-04-23 19:30:47,480 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-23 19:30:47,482 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: server_info
+2023-04-23 19:30:47,482 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: poll_exit
+2023-04-23 19:30:47,483 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-23 19:30:47,484 DEBUG   SenderThread:180372 [sender.py:send_request():363] send_request: server_info
+2023-04-23 19:30:47,485 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-23 19:30:47,987 INFO    MainThread:180372 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-04-23 19:30:47,988 INFO    MainThread:180372 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-04-23 19:30:47,988 INFO    MainThread:180372 [wandb_run.py:_footer_sync_info():3398] logging synced files
+2023-04-23 19:30:47,989 DEBUG   HandlerThread:180372 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-23 19:30:47,990 INFO    HandlerThread:180372 [handler.py:finish():841] shutting down handler
+2023-04-23 19:30:48,484 INFO    WriterThread:180372 [datastore.py:close():299] close: /home/vish/siamese-retriever/src/wandb/run-20230423_193023-gutsrh70/run-gutsrh70.wandb
+2023-04-23 19:30:48,987 INFO    SenderThread:180372 [sender.py:finish():1493] shutting down sender
+2023-04-23 19:30:48,987 INFO    SenderThread:180372 [file_pusher.py:finish():162] shutting down file pusher
+2023-04-23 19:30:48,987 INFO    SenderThread:180372 [file_pusher.py:join():167] waiting for file pusher

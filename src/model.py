@@ -31,3 +31,19 @@ class Net(nn.Module):
         x = x.view(-1, 64*14*14)
         x = self.fc(x)
         return x
+
+# class Net(nn.Module):
+#     def __init__(self):
+#         super(Net, self).__init__()
+#         self.vgg = torchvision.models.vgg16(pretrained=True)
+#         for param in self.vgg.parameters():
+#             param.requires_grad = False
+#         self.fc = nn.Sequential(nn.Linear(1000, 100),
+#                                  nn.ReLU(),
+#                                  nn.Linear(100, 8))
+
+#     def forward(self, x):
+#         x = self.vgg(x)
+#         x = x.view(x.size(0), -1)
+#         x = self.fc(x)
+#         return x
