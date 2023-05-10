@@ -5,6 +5,7 @@ Image retrieval is the process of searching for and retrieving images from a dat
 The computational resources consist of 1 Intel ® Core i7-10700, 16GB of RAM, 1 GPU NVIDIA GeForce GTX 1650 Ti with 4GB of memory. The model was trained on our architecture for our dataset [IF20K](https://drive.google.com/drive/folders/1GGyYYRRznMQ9XllWJyXFNtoDh4vK99kU?usp=share_link) and can be found [here](https://drive.google.com/file/d/1ZpAX8WalKw44wuNPF53sxGwQxgTuySAw/view?usp=share_link). 
 
 # How To Run
+Download the dataset and the pre-trained model.
 ```
 cd app
 streamlit run app.py
