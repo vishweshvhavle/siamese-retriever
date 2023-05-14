@@ -6,6 +6,11 @@ The computational resources consist of 1 Intel ® Core i7-10700, 16GB of RAM, 1 
 
 # How To Run
 Download the dataset and the pre-trained model.
+
+Clone the repository and run the following commands to get the app running
+```
+pip install -r requirements.txt
+```
 ```
 cd app
 streamlit run app.py
